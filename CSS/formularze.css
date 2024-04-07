@@ -1,0 +1,40 @@
+.button{
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    width: 75px;
+}
+.przycisk{
+    cursor: pointer;
+}
+
+.nazwisko {
+    padding-right: 23.5pt;
+}
+
+.wiek {
+    padding-right: 46pt;
+}
+
+.panstwo {
+    padding-right: 31pt;
+}
+
+.email {
+    padding-right: 6pt;
+}
+
+#tresc {
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+#stopka {
+    margin: auto;
+    width: 90%;
+    padding: 5px 0 5px 0;
+}
+
+#formularz {
+    margin-left: 5%;
+}

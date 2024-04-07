@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/formularze.css" type="text/css">
+    <title>Budowa formularze</title>
+</head>
+<body>
+    <div id="kontener">
+        <div id="baner"><h2>Szybki kurs HTML</h2></div>
+        <div id="menu">
+            <ul id="nav">
+                <li><a href="index.html">Podstawy</a></li>
+                <li><a href="tabele.html">Tabele</a></li>
+                <li><a href="">Formularze</a>
+                <ul>
+                    <li><a href="formularze.html">Pola formularza</a></li>
+                    <li><a href="obliczenia.html">Obliczenia w formularzu</a></li>
+                </ul>
+                </li>
+                <li><a href="galeria.html" title="">Galeria</a></li>
+            </ul>
+        </div>
+        <div id="tresc">
+        <h3>Podstawowe znaczniki formularza HTML to:</h3>
+        <ul>
+            <li>&lt;form&gt; - znacznik podstawowy zawierający pola formularza</li>
+            <li>&lt;input&gt; - znacznik umożliwia wstawienei różnych pól (pole tekstowe, przycisk typu radio, przycisk typu checkbox)
+                w zależności od wartości jego atrybutu type
+            </li>
+            <li>&lt;select&gt; - pole formularza typu lista rozwijana</li>
+            <li>&lt;textarea&gt; - pole formularza typu obszar tekstowy</li>
+            <li>&lt;button&gt; - pole formularza typu przycisk</li>
+        </ul>
+        </div>
+    </div>
+    <div id="formularz">
+        <h3>Przykładowy formularz HTML:</h3>
+        <form action="mailto:s97829@pollub.edu.pl" method="post">
+            <label class="nazwisko">Nazwisko:</label><input type="text" name="nazwisko"> <br>
+            <label class="wiek">Wiek:</label><input type="text" name="wiek"> <br>
+            <label class="panstwo">Państwo:</label><select name="Panstwo" size="1" class="przycisk">
+                <option value="p">Polska</option>
+                <option value="u">Ukraina</option>
+                <option value="f">Francja</option>
+                <option value="w">Włochy</option>
+                <option value="i">Inne...</option>
+            </select> <br>
+            <label class="email">Adres e-mail: </label><input type="email" name="email"> <br>
+            <h4>Zamawiam tutorial z języka:</h4>
+            <input class="przycisk" type="checkbox" name="PHP" value="PHP"> PHP
+            <input class="przycisk" type="checkbox" name="C" value="C"> C/C++
+            <input class="przycisk" type="checkbox" name="Java" value="Java"> Java <br>
+            <h4>Sposób zapłaty:</h4>
+            <input class="przycisk" type="radio" name="payment" value="Eu"> eurocard
+            <input class="przycisk" type="radio" name="payment" value="visa"> Visa
+            <input class="przycisk" type="radio" name="payment" value="Pb"> Przelew bankowy <br> <br>
+            <input class="button" type="submit" value="Wyślij">
+            <input class="button" type="reset" value="Anuluj">
+        </form>
+    </div>
+    <br><div id="stopka"> &copy;BP </div>
+</body>
+</html>

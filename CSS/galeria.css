@@ -1,0 +1,15 @@
+#naglowek {
+    text-align: center;
+    font-size: 200%;
+}
+
+img {
+    height: 160px;
+    width: 250px;
+    float: left;
+    margin: 1%;
+}
+
+#image {
+    margin-left: 11%;
+}
